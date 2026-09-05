@@ -6,6 +6,9 @@
 
 ```text
 README.md                 この案内・執筆の進め方
+AGENTS.md                 執筆後のレビュースキルへの案内
+.agents/skills/
+  episode-review-fix-loop/SKILL.md  Luna によるレビュー・修正ループ
 planning/                 作者用の資料（ネタバレを含む）
   concept.md              作品の軸・テーマ・決め台詞
   characters.md           登場人物・能力・弱点
@@ -14,6 +17,7 @@ planning/                 作者用の資料（ネタバレを含む）
   open-questions.md       執筆前に決める事項
   continuity.md           伏線・時系列・状態の管理
   progress.md             各話の執筆・推敲・公開状況
+  reviews/NN.md           各話のレビュー記録（実施時に作成）
 manuscript/               カクヨムに貼り付ける本文の正本
   01.txt ～ 10.txt         1話1ファイル（現在は空）
 publishing/               投稿欄に入れる情報と確認手順
@@ -36,7 +40,7 @@ templates/
 1. 設定資料と `planning/open-questions.md` を読み、その話に必要な事項を決めます。
 2. `planning/outline.md` を確認します。詳細化が必要なら雛形を `planning/episode-01.md` などへコピーします。
 3. 対応する `manuscript/NN.txt` に本文だけを書きます。話数・タイトルは `planning/progress.md` で管理します。
-4. 推敲し、設定変更や伏線を資料に反映して進捗を更新します。
+4. [episode-review-fix-loop](.agents/skills/episode-review-fix-loop/SKILL.md) で Luna のレビューと本文修正を指摘ゼロまで繰り返します。設定変更や伏線を資料に反映し、実施記録を `planning/reviews/NN.md` に残して進捗を更新します。
 5. `publishing/checklist.md` に沿って確認し、カクヨムのタイトル欄と本文欄へ別々に入力します。
 6. 公開後、公開日時・URLを進捗表に記録します。投稿画面で本文を修正した場合も正本に反映します。
 
