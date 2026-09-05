@@ -19,7 +19,7 @@ planning/                 作者用の資料（ネタバレを含む）
   progress.md             各話の執筆・推敲・公開状況
   reviews/NN.md           各話のレビュー記録（実施時に作成）
 manuscript/               カクヨムに貼り付ける本文の正本
-  01.txt ～ 10.txt         1話1ファイル（現在は空）
+  01.txt ～ 10.txt         1話1ファイル（進捗は planning/progress.md）
 publishing/               投稿欄に入れる情報と確認手順
   work.md                 作品タイトル・紹介文・タグの案
   format.md               本文の書式・カクヨム記法
@@ -33,7 +33,7 @@ templates/
 - `concept.md`、`characters.md`、`world.md` は、提示された設定を整理したものです。
 - `outline.md` の各話の出来事・視点・引き、紹介文、執筆書式は初期案です。確定設定とは区別して扱います。
 - 未指定の仕組みは `open-questions.md` に残しています。本文を書く際に、未決事項を既定の設定として扱わないでください。
-- 本文は未執筆です。空の `.txt` は原稿の置き場所であり、完成原稿ではありません。
+- 本文の執筆状況は `planning/progress.md` を参照してください。空の `.txt` は未執筆の原稿枠です。
 
 ## 執筆の進め方
 
